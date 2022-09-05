@@ -1,0 +1,12 @@
+{
+  "name": "node-canvas-poc",
+  "version": "1.0.0",
+  "description": "poc",
+  "main": "index.js",
+  "repository": "https://github.com/thedivinememe/node-canvas-poc.git",
+  "author": "Brandon Welner <brandonmaxwelner@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.10.0"
+  }
+}
