@@ -1,8 +1,8 @@
 const fs = require('fs');
 const { createCanvas, loadImage } = require('canvas');
-const canvas = createCanvas(160, 144);
-const ctx = canvas.getContext('2d');
 const {layers, width, height} = require('./layers/config.js');
+const canvas = createCanvas(width, height);
+const ctx = canvas.getContext('2d');
 const fileName = 'awesome-wizard';
 
 const saveLayer = (_canvas, _fileName) => {
